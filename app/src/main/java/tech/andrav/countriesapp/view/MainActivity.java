@@ -1,8 +1,9 @@
-package tech.andrav.countriesapp;
+package tech.andrav.countriesapp.view;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+
+import tech.andrav.countriesapp.R;
 
 public class MainActivity extends AppCompatActivity {
 
