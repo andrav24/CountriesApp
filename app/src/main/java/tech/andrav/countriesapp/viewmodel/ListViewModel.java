@@ -18,10 +18,10 @@ public class ListViewModel extends ViewModel {
      * This method is entry point for the View in our ViewModel
      */
     public void refresh() {
-        fetchCounties();
+        fetchCountries();
     }
 
-    private void fetchCounties() {
+    private void fetchCountries() {
         CountryModel country1 = new CountryModel("Albania", "Tirana", "");
         CountryModel country2 = new CountryModel("Brazil", "Brasilia", "");
         CountryModel country3 = new CountryModel("Czech", "Praha", "");
