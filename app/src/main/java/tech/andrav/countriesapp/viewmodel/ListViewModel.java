@@ -18,6 +18,7 @@ public class ListViewModel extends ViewModel {
      * This method is entry point for the View in our ViewModel
      */
     public void refresh() {
+
         fetchCountries();
     }
 
@@ -27,6 +28,27 @@ public class ListViewModel extends ViewModel {
         CountryModel country3 = new CountryModel("Czech", "Praha", "");
 
         List<CountryModel> list = new ArrayList<>();
+        list.add(country1);
+        list.add(country2);
+        list.add(country3);
+        list.add(country1);
+        list.add(country2);
+        list.add(country3);
+        list.add(country1);
+        list.add(country2);
+        list.add(country3);
+        list.add(country1);
+        list.add(country2);
+        list.add(country3);
+        list.add(country1);
+        list.add(country2);
+        list.add(country3);
+        list.add(country1);
+        list.add(country2);
+        list.add(country3);
+        list.add(country1);
+        list.add(country2);
+        list.add(country3);
         list.add(country1);
         list.add(country2);
         list.add(country3);

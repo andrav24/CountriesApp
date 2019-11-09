@@ -49,6 +49,7 @@ public class CountryListAdapter extends RecyclerView.Adapter<CountryListAdapter.
         return countries.size();
     }
 
+
     class CountryViewHolder extends RecyclerView.ViewHolder {
 
         @BindView(R.id.imageView)
@@ -67,7 +68,7 @@ public class CountryListAdapter extends RecyclerView.Adapter<CountryListAdapter.
 
         void bind(CountryModel country) {
             countryName.setText(country.getCountryName());
-            countryCapital.setText(country.getCountryName());
+            countryCapital.setText(country.getCapital());
         }
     }
 }
